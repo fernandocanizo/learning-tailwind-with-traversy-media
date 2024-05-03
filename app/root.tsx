@@ -1,3 +1,11 @@
+import style from "~/style.css?url"
+
+import type { LinksFunction } from "@remix-run/node"
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: style },
+]
+
 import {
   Links,
   Meta,
