@@ -1,6 +1,10 @@
-# Welcome to Remix + Vite!
+# Learning Tailwind
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
+Following this YouTube [course](https://www.youtube.com/watch?v=dFgzHOX84xQ) from [@TraversyMedia](https://www.youtube.com/@TraversyMedia).
+
+This is a Remix project.
+
+See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
 
 ## Development
 
