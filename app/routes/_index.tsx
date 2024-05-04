@@ -24,6 +24,10 @@ export default function Index() {
           <a href="#careers" className="hover:text-darkGrayishBlue">Careers</a>
           <a href="#community" className="hover:text-darkGrayishBlue active:bg-orange-300">Community</a>
         </div>
+
+        <a href="/" className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
+          Get Started
+        </a>
       </div>
     </nav>
   )
