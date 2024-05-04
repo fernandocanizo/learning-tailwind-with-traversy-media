@@ -1,14 +1,20 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "@remix-run/node"
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
+    { title: "Learning Tailwind" },
+    { name: "description", content: "A mock project to learn TailwindCSS" },
+  ]
+}
 
 export default function Index() {
   return (
-    <h1 className="text-red-600 text-4xl text-center">Learning TailwindCSS</h1>
+    <nav className="relative container mx-auto p-6 bg-slate-300 rounded-md drop-shadow-md">
+      <div className="flex items-center justify-between">
+        <div className="pt-2">
+          <img src="img/logo.svg" alt="Logo Manage" />
+        </div>
+      </div>
+    </nav>
   )
 }
